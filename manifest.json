@@ -18,5 +18,18 @@
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
+  },
+
+"commands": {
+  "read-selected-text": {
+    "suggested_key": {
+      "default": "Ctrl+Shift+S"
+    },
+    "description": "Read selected text aloud"
   }
+},
+
+"background": {
+  "service_worker": "background.js"
+}
 }
